@@ -46,6 +46,8 @@ public class Lab3Activity extends AppCompatActivity
         String p22 = getInputOfTextField(R.id.spinner4);
         String p31 = getInputOfTextField(R.id.spinner5);
         String p32 = getInputOfTextField(R.id.spinner6);
+        double round =0;
+
 
         Game result = new Game (p1,p2,p11,p12);
         String rt = result.toString();
@@ -64,8 +66,10 @@ public class Lab3Activity extends AppCompatActivity
         String p22 = getInputOfTextField(R.id.spinner4);
         String p31 = getInputOfTextField(R.id.spinner5);
         String p32 = getInputOfTextField(R.id.spinner6);
+        double round = 1;
 
-        Game2 result = new Game2 (p1,p2,p21,p22);
+
+        Game result = new Game (p1,p2,p21,p22);
         String rt = result.toString();
         setContentsOfTextView(R.id.lableAnswer, result.toString());
 
@@ -80,8 +84,9 @@ public class Lab3Activity extends AppCompatActivity
         String p22 = getInputOfTextField(R.id.spinner4);
         String p31 = getInputOfTextField(R.id.spinner5);
         String p32 = getInputOfTextField(R.id.spinner6);
+        double round = 2;
 
-        Game3 result = new Game3 (p1,p2,p31,p32);
+        Game result = new Game (p1,p2,p31,p32);
         String rt = result.toString();
         setContentsOfTextView(R.id.lableAnswer, result.toString());
 
