@@ -7,5 +7,6 @@ public class Gametester
 {public static void main(String[] args)
 {
     Game x1 = new Game("m", "n", "Paper", "Scissors");
+    System.out.println(x1.toString());
 }
 }
